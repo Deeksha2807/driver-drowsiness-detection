@@ -1,6 +1,9 @@
+
 # Driver Drowsiness Detection Using Sequential Facial Images
 
-A student-project starter implementation using a CNN-LSTM model. The CNN extracts visual features from frames and the LSTM learns temporal patterns across a sequence. A webcam application uses the trained model to display a status and issue a warning.
+**A deep learning framework for detecting driver drowsiness from sequential facial and eye images using CNN-LSTM.**
+
+A student-project implementation using a CNN-LSTM model. The CNN extracts visual features from frames, and the LSTM learns temporal patterns across a sequence. A webcam application uses the trained model to display a status and issue a warning.
 
 > This is a research/educational prototype, not a certified vehicle safety system. Do not rely on it to decide whether it is safe to drive.
 
@@ -36,13 +39,11 @@ data/
       video_001/
         frame_000001.jpg
         frame_000002.jpg
-        ...
       video_002/
         ...
     drowsy/
       video_003/
         frame_000001.jpg
-        ...
   val/
     alert/video_010/...
     drowsy/video_011/...
